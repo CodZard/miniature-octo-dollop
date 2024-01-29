@@ -1,0 +1,114 @@
+body{
+    background-image: linear-gradient(rgba(255, 0, 0, 0.5), rgba(0, 255, 255, 0.4)), url(https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; width: auto; height: auto;
+    text-align: center;
+    color: white;
+  font-size: 20px;
+  }
+  h1{
+    margin-top: 50px;
+  }
+  p{
+    padding-bottom: 20px;
+  }
+  form{
+    background-color: navy;
+    height: 200vh; width: 950px;
+    margin-left: 290px;
+    padding-top: 40px;
+    border-radius: 10px
+  }
+  label{
+    display: block;
+  }
+  .shift{
+    padding-top: 20px;
+  }
+  
+  #name{
+    border: none;
+    border-radius: 3px;
+    width: 700px;
+    height: 30px;
+  }
+  #name-label{
+    padding-right: 650px;
+  }
+  #email-label{
+    padding-right: 650px;
+  }
+  #email{
+    border: none;
+    border-radius: 3px;
+    width: 700px;
+    height: 30px;
+  }
+  #number-label{
+    padding-right: 670px;
+  }
+  #number{
+    border: none;
+    border-radius: 3px;
+    width: 700px;
+    height: 30px;
+  }
+  .dropdown{
+    padding-right: 520px;
+  }
+  #dropdown{
+  border: 1px solid navy;
+  width: 700px;
+  height: 30px;
+  border-radius: 3px;
+  }
+  #shift{
+    padding-right: 420px;
+  }
+  .recomed{
+    padding-top: 50px;
+  }
+  #command{
+    padding-top: 50px;
+    padding-right: 400px;
+  }
+  .space{
+    margin-top: 50px;
+    margin-right: 650px;
+  }
+  #space{
+    margin-right: 619px;
+  }
+  .legend{
+    padding-right: 500px;
+    padding-top: 50px;
+  }
+  .improve{
+    padding-right: 410px;
+    padding-top: 50px;
+  }
+  .chat, .challenge{
+    padding-right: 580px;
+  }
+  #down{
+    margin-top: 200px;
+  }
+  #comments{
+    width: 800px;
+    height: 250px;
+    border: none;
+    border-radius: 3px;
+  }
+  #submit{
+    border: none;
+    background-color: green;
+    border-radius: 3px;
+    width: 800px;
+    margin-top: 90px;
+    height: 50px;
+    color: white;
+    font-size: 18px;
+  }
+  .down{
+    padding-right: 550px;
+  }

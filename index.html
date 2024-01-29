@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Idle Survey Form</title>
+  <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+
+  <h1 id="title">Idle Survey Form</h1>
+
+  <p id="description">Thank you for taking the time to help us improve the platform</p>
+
+  <form id="survey-form">
+
+    <div class="shift">
+    <label for="name" id="name-label">Name</label>
+    <input type="text" id="name" name="name" required placeholder="Enter your name">
+</div>
+
+<div class="shift">
+    <label for="email" id="email-label">Email</label>
+    <input type="email" id="email" name="email" required placeholder="Enter your email">
+</div>
+
+<div class="shift">
+    <label for="number" id="number-label">Age</label>
+    <input type="number" id="number" name="age" min="18" max="100" required placeholder="Enter your age">
+    </div>
+
+<div class="shift">
+   <label class="dropdown">What your current role</label>
+    <select id="dropdown" name="dropdown">
+      <option value="option1">Student</option>
+      <option value="option2">Full time job</option>
+    </select>
+</div>
+    <div class="recomed">
+      <label id="command">Would you recommend idle survey </label>
+      <div class="space">
+      <input type="radio" name="survey" value="yes" required> Yes
+      </div>
+      <div id="space">
+      <input type="radio" name="survey" value="maybe" required> Maybe
+    </div>
+    </div>
+
+    <legend class="legend">Would you like to rate us</legend>
+    <select id="dropdown" name="dropdown">
+      <option value="option1">Yes</option>
+      <option value="option2">Maybe Later</option>
+      </select>
+    <div>
+      <label class="improve" >What would you like us to improve </label>
+      <div class="chat">
+      <input type="checkbox" name="develop" value="chatroom" required> Chat Room<br>
+      </div>
+      <div class="challenge">
+      <input type="checkbox" name="develop" value="challengers" required> Challengers
+    </div>
+
+    <div id="down">
+<legend class="down">Any comments or suggestions</legend>
+    <textarea id="comments" name="comments" placeholder="Enter your comments"></textarea>
+    </div>
+
+    <input type="submit" id="submit" value="Submit">
+  </form>
+
+</body>
+</html>
